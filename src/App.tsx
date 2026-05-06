@@ -5,14 +5,12 @@ import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-    <>
-      <nav>
-        <NavBar />
-      </nav>
-      <main>
+    <div className='p-5 flex h-full'>
+      <NavBar />
+      <main className='flex flex-1'>
         <Outlet />
       </main>
-    </>
+    </div>
   )
 }
 export default App
