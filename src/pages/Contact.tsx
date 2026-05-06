@@ -1,12 +1,12 @@
 const Contact = () => {
   return (
-    <div className='flex flex-col gap-4 max-w-2xl w-full'>
+    <div className='flex flex-col gap-4 max-w-2xl w-full mr-[19%]'>
       <h2 className='text-3xl tracking-tight text-gray-500'>Get in touch</h2>
       <form className='space-y-4 w-full'>
         <div className='flex gap-4'>
           <input
             type='text'
-            placeholder='name'
+            placeholder='Name'
             required
             className='border border-gray-300 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-md p-2 w-full'
           />
@@ -21,7 +21,7 @@ const Contact = () => {
           name='message'
           rows={5}
           id='message'
-          placeholder='Message'
+          placeholder="What's up?"
           required
           className='border border-gray-300 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-md p-2 w-full resize-none'
         />
