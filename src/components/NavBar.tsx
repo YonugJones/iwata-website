@@ -8,20 +8,20 @@ const NavBar = () => {
           <Link to='/'>
             <span className='text-yellow-500 hover:text-yellow-600'>
               Cecilia
-            </span>{' '}
+            </span>
             Iwata
           </Link>
         </li>
-        <li className='py-3 font-medium text-gray-500 hover:text-gray-800 hover:cursor-pointer'>
+        <li className='py-3 font-medium text-gray-400 hover:text-gray-800 hover:cursor-pointer'>
           <Link to='/sculpture'>Edible Sculptures/Installations</Link>
         </li>
-        <li className='py-3 font-medium text-gray-500 hover:text-gray-800 hover:cursor-pointer'>
+        <li className='py-3 font-medium text-gray-400 hover:text-gray-800 hover:cursor-pointer'>
           <Link to='/painting'>Painting</Link>
         </li>
-        <li className='py-3 font-medium text-gray-500 hover:text-gray-800 hover:cursor-pointer'>
+        <li className='py-3 font-medium text-gray-400 hover:text-gray-800 hover:cursor-pointer'>
           <Link to='/contact'>Contact</Link>
         </li>
-        <li className='py-3 font-medium text-gray-500 hover:text-gray-800 hover:cursor-pointer'>
+        <li className='py-3 font-medium text-gray-400 hover:text-gray-800 hover:cursor-pointer'>
           <Link to='/about'>About</Link>
         </li>
       </ul>
