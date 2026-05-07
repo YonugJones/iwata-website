@@ -5,11 +5,9 @@ const NavBar = () => {
   return (
     <nav className='px-5 text-right animate-nav-in'>
       <ul>
-        <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:text-gray-800 hover:cursor-pointer transition-colors duration-200'>
+        <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:cursor-pointer'>
           <Link to='/'>
-            <span className='text-yellow-500 hover:text-yellow-600'>
-              Cecilia
-            </span>
+            <span className='text-yellow-500'>Cecilia</span>
             Iwata
           </Link>
         </li>
