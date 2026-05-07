@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
 const NavBar = () => {
   return (
-    <nav className='px-5 animate-nav-in text-right'>
+    <nav className='px-5 text-right animate-nav-in'>
       <ul>
         <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:text-gray-800 hover:cursor-pointer transition-colors duration-200'>
           <Link to='/'>
