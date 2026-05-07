@@ -2,7 +2,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <nav className='px-5 animate-nav-in'>
+    <nav className='px-5 animate-nav-in text-right'>
       <ul>
         <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:text-gray-800 hover:cursor-pointer transition-colors duration-200'>
           <Link to='/'>
