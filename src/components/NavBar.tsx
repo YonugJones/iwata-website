@@ -7,8 +7,7 @@ const NavBar = () => {
       <ul>
         <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:cursor-pointer'>
           <Link to='/'>
-            <span className='text-yellow-500'>Cecilia</span>
-            Iwata
+            <span className='text-yellow-500'>CECILIA</span> IWATA
           </Link>
         </li>
         <li className='py-3'>
