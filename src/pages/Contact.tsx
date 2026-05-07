@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className='flex flex-col gap-4 max-w-2xl w-full mr-[19% animate-fade-in'>
+    <div className='flex flex-col gap-4 max-w-2xl w-full mr-[19%] animate-fade-in'>
       <h2 className='text-3xl tracking-tight text-gray-500'>Get in touch</h2>
       <form className='space-y-4 w-full'>
         <div className='flex gap-4'>
