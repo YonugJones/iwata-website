@@ -109,4 +109,103 @@ export const artworks: Artwork[] = [
     description:
       'This is a placeholder image9 that is dwarved in comparison to anything that Cecilia Iwata creates.',
   },
+  {
+    id: '10',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/1/900/600',
+    title: 'Placeholder Image 10',
+    year: 2000,
+    materials: 'Flour10, sugar10, egg10, milk10',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image10 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '11',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/2/900/600',
+    title: 'Placeholder Image 11',
+    year: 2000,
+    materials: 'Flour11, sugar11, egg11, milk11',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image11 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '12',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/3/900/600',
+    title: 'Placeholder Image 12',
+    year: 2000,
+    materials: 'Flour12, sugar12, egg12, milk12',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image12 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '13',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/4/900/600',
+    title: 'Placeholder Image 13',
+    year: 2000,
+    materials: 'Flour13, sugar13, egg13, milk13',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image13 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '14',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/5/900/600',
+    title: 'Placeholder Image 14',
+    year: 2000,
+    materials: 'Flour14, sugar14, egg14, milk14',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image14 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '15',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/6/900/600',
+    title: 'Placeholder Image 15',
+    year: 2000,
+    materials: 'Flour15, sugar15, egg15, milk15',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image15 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '16',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/7/900/600',
+    title: 'Placeholder Image 16',
+    year: 2000,
+    materials: 'Flour16, sugar16, egg16, milk16',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image16 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '17',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/8/900/600',
+    title: 'Placeholder Image 17',
+    year: 2000,
+    materials: 'Flour17, sugar17, egg17, milk17',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image17 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
+  {
+    id: '18',
+    category: 'painting',
+    src: 'https://picsum.photos/seed/9/900/600',
+    title: 'Placeholder Image 18',
+    year: 2000,
+    materials: 'Flour18, sugar18, egg18, milk18',
+    dimensions: '800 x 600',
+    description:
+      'This is a placeholder image18 that is dwarved in comparison to anything that Cecilia Iwata creates.',
+  },
 ]
