@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className='px-5 text-right animate-nav-in'>
       <ul>
-        <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tight hover:cursor-pointer'>
+        <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tighter hover:cursor-pointer'>
           <Link to='/'>
             <span className='text-yellow-500'>CECILIA</span> IWATA
           </Link>
