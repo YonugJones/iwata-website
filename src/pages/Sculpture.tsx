@@ -1,5 +1,33 @@
+import Masonry from 'react-masonry-css'
+import { artworks } from '../data/artworks'
+
+const breakpointColumns = {
+  default: 3,
+  1100: 2,
+  700: 1,
+}
+
 const Sculpture = () => {
-  return <div>Sculpture</div>
+  const sculptureWorks = artworks.filter((a) => a.category === 'sculpture')
+
+  return (
+    <div className='animate-fade-in px-4'>
+      <Masonry
+        breakpointCols={breakpointColumns}
+        className='flex gap-4'
+        columnClassName='flex flex-col gap-4'
+      >
+        {sculptureWorks.map((s) => (
+          <img
+            key={s.id}
+            src={s.src}
+            alt={s.title}
+            className='w-full shadow-sm hover:opacity-90 hover:cursor-pointer transition-opacity duration-200'
+          />
+        ))}
+      </Masonry>
+    </div>
+  )
 }
 
 export default Sculpture
