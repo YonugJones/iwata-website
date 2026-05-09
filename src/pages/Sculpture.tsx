@@ -35,6 +35,7 @@ const Sculpture = () => {
             key={s.id}
             src={s.src}
             alt={s.title}
+            onClick={() => navigate(`/artwork/${s.id}`)}
             className='w-full shadow-sm hover:opacity-90 hover:cursor-pointer transition-opacity duration-200'
           />
         ))}

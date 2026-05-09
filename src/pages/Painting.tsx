@@ -33,6 +33,7 @@ const Painting = () => {
             key={p.id}
             src={p.src}
             alt={p.title}
+            onClick={() => navigate(`/artwork/${p.id}`)}
             className='w-full shadow-sm hover:opacity-90 hover:cursor-pointer transition-opacity duration-200'
           />
         ))}
