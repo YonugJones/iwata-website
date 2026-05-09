@@ -8,7 +8,7 @@ const ArtworkDetails = () => {
   if (!artwork) return <div>Artwork not found</div>
 
   return (
-    <div className='m-auto text-gray-500 space-y-3'>
+    <div className='m-auto text-gray-500 space-y-3 pb-10'>
       <img src={artwork.src} alt={artwork.title} />
       <div className='flex gap-10'>
         <h1 className='text-gray-800'>{artwork.title}</h1>

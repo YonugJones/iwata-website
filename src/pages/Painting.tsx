@@ -12,6 +12,10 @@ const Painting = () => {
 
   return (
     <div className='animate-fade-in m-auto px-4 pb-10'>
+      <div className='flex text-gray-500'>
+        <h2>BACK</h2>
+        <h1 className='tracking-tighter'>PAINTING</h1>
+      </div>
       <Masonry
         breakpointCols={breakpointColumns}
         className='flex gap-4'
