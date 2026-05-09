@@ -2,8 +2,10 @@ import aboutImg from '../assets/cecilia-about-photo.jpg'
 
 const About = () => {
   return (
-    <div className='text-gray-500 animate-fade-in m-auto'>
-      <h1 className='text-4xl text-start font-normal pb-4'>About</h1>
+    <div className='gray animate-fade-in m-auto'>
+      <h1 className='text-xl tracking-wide text-start font-normal font-ultra pb-4 italic'>
+        About
+      </h1>
       <div className='grid grid-cols-2 gap-10 text-sm'>
         <div className='max-w-md'>
           <p>

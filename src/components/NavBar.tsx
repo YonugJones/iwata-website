@@ -14,7 +14,7 @@ const NavBar = () => {
           <NavLink
             to='/sculpture'
             className={({ isActive }) =>
-              `font-extralight transition-colors duration-200 gray-hover ${
+              `font-normal transition-colors duration-200 gray-hover text-sm ${
                 isActive ? 'dark-gray' : 'gray'
               }`
             }
@@ -26,7 +26,7 @@ const NavBar = () => {
           <NavLink
             to='/painting'
             className={({ isActive }) =>
-              `font-extralight transition-colors duration-200 gray-hover ${
+              `font-normal transition-colors duration-200 gray-hover text-sm ${
                 isActive ? 'dark-gray' : 'gray'
               }`
             }
@@ -38,7 +38,7 @@ const NavBar = () => {
           <NavLink
             to='/contact'
             className={({ isActive }) =>
-              `font-extralight transition-colors duration-200 gray-hover ${
+              `font-normal transition-colors duration-200 gray-hover text-sm ${
                 isActive ? 'dark-gray' : 'gray'
               }`
             }
@@ -50,7 +50,7 @@ const NavBar = () => {
           <NavLink
             to='/about'
             className={({ isActive }) =>
-              `font-extralight transition-colors duration-200 gray-hover ${
+              `font-normal transition-colors duration-200 gray-hover text-sm ${
                 isActive ? 'dark-gray' : 'gray'
               }`
             }
@@ -58,7 +58,7 @@ const NavBar = () => {
             About
           </NavLink>
         </li>
-        <div className='flex gap-3 justify-end py-3 font-semibold'>
+        <div className='flex gap-3 justify-end py-3 font-bold'>
           <li className='gray gray-hover transition-colors duration-200'>
             <a
               href='https://www.instagram.com/cecilia.iwata/'
