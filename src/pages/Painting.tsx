@@ -1,5 +1,6 @@
 import Masonry from 'react-masonry-css'
 import { artworks } from '../data/artworks'
+import { useNavigate } from 'react-router-dom'
 
 const breakpointColumns = {
   default: 3,
@@ -8,13 +9,19 @@ const breakpointColumns = {
 }
 
 const Painting = () => {
+  const navigate = useNavigate()
   const paintingWorks = artworks.filter((p) => p.category === 'painting')
 
   return (
     <div className='animate-fade-in m-auto px-4 pb-10'>
-      <div className='flex text-gray-500'>
-        <h2>BACK</h2>
-        <h1 className='tracking-tighter'>PAINTING</h1>
+      <div className='relative flex items-center justify-center text-gray-500 mb-6'>
+        <button
+          className='absolute left-0 hover:text-gray-800 hover:cursor-pointer transition-colors duration-200'
+          onClick={() => navigate('/')}
+        >
+          BACK
+        </button>
+        <h1 className='tracking-tighter text-3xl'>PAINTING</h1>
       </div>
       <Masonry
         breakpointCols={breakpointColumns}
