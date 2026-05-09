@@ -26,7 +26,7 @@ const Landing = () => {
   }
 
   return (
-    <div className='animate-fade-in'>
+    <div className='animate-fade-in mx-auto'>
       <img src={current.src} alt={current.title} className='shadow-xl' />
       <div className='flex justify-center items-center gap-6 py-8'>
         <button className='hover:cursor-pointer' onClick={prevArtwork}>

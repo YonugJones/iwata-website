@@ -11,7 +11,7 @@ const Sculpture = () => {
   const sculptureWorks = artworks.filter((a) => a.category === 'sculpture')
 
   return (
-    <div className='animate-fade-in px-4'>
+    <div className='animate-fade-in m-auto px-4 pb-10'>
       <Masonry
         breakpointCols={breakpointColumns}
         className='flex gap-4'

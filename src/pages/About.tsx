@@ -2,9 +2,9 @@ import aboutImg from '../assets/cecilia-about-photo.jpg'
 
 const About = () => {
   return (
-    <div className='text-gray-500 animate-fade-in'>
+    <div className='text-gray-500 animate-fade-in m-auto'>
       <h1 className='text-4xl text-start font-semibold pb-4'>About</h1>
-      <div className='grid grid-cols-2 gap-6 text-sm'>
+      <div className='grid grid-cols-2 gap-10 text-sm'>
         <div className='max-w-md'>
           <p>
             My practice focuses on the exchange of social, economic and cultural
