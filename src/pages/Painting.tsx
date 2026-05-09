@@ -21,7 +21,7 @@ const Painting = () => {
         >
           BACK
         </button>
-        <h1 className='tracking-tighter text-3xl'>PAINTING</h1>
+        <h1 className='tracking-tighter text-3xl font-light'>PAINTING</h1>
       </div>
       <Masonry
         breakpointCols={breakpointColumns}

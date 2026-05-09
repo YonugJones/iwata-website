@@ -21,7 +21,7 @@ const Sculpture = () => {
         >
           BACK
         </button>
-        <h1 className='tracking-tighter text-3xl'>
+        <h1 className='tracking-tighter text-3xl font-light'>
           EDIBLE SCULPTURE/INSTALLATION
         </h1>
       </div>

@@ -20,8 +20,10 @@ const ArtworkDetails = () => {
       </div>
       <div className='flex gap-6'>
         <img src={artwork.src} alt={artwork.title} className='max-w-3xl' />
-        <div className='flex justify-end flex-col text-gray-500 italic'>
-          <h1 className='text-gray-800 text-lg'>{artwork.title}</h1>
+        <div className='flex justify-end flex-col text-gray-500 italic text-sm font-light'>
+          <h1 className='text-gray-800 text-base font-normal'>
+            {artwork.title}
+          </h1>
           <p>{artwork.year}</p>
           <p>{artwork.materials}</p>
           <p>{artwork.description}</p>

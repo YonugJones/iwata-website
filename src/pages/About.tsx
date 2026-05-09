@@ -3,7 +3,7 @@ import aboutImg from '../assets/cecilia-about-photo.jpg'
 const About = () => {
   return (
     <div className='text-gray-500 animate-fade-in m-auto'>
-      <h1 className='text-4xl text-start font-semibold pb-4'>About</h1>
+      <h1 className='text-4xl text-start font-normal pb-4'>About</h1>
       <div className='grid grid-cols-2 gap-10 text-sm'>
         <div className='max-w-md'>
           <p>
@@ -12,7 +12,11 @@ const About = () => {
             are based on service rather than scarcity.
           </p>
           <p className='py-3'>
-            My CV can be found <a href='#'>here</a>.
+            My CV can be found{' '}
+            <a href='#' className='underline'>
+              here
+            </a>
+            .
           </p>
           <p className='pb-2 text-center'>...</p>
           <p className='py-3'>

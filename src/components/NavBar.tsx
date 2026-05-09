@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className='px-5 text-right animate-nav-in'>
       <ul>
-        <li className='py-3 pb-8 font-semibold text-5xl text-gray-500 tracking-tighter hover:cursor-pointer'>
+        <li className='py-3 pb-8 font-light text-5xl text-gray-500 tracking-tighter hover:cursor-pointer'>
           <Link to='/'>
             <span className='text-yellow-500'>CECILIA</span> IWATA
           </Link>
@@ -14,8 +14,8 @@ const NavBar = () => {
           <NavLink
             to='/sculpture'
             className={({ isActive }) =>
-              `font-medium transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
-                isActive ? 'text-gray-800' : 'text-gray-400'
+              `font-normal transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
+                isActive ? 'text-gray-800' : 'text-gray-500'
               }`
             }
           >
@@ -26,8 +26,8 @@ const NavBar = () => {
           <NavLink
             to='/painting'
             className={({ isActive }) =>
-              `font-medium transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
-                isActive ? 'text-gray-800' : 'text-gray-400'
+              `font-normal transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
+                isActive ? 'text-gray-800' : 'text-gray-500'
               }`
             }
           >
@@ -38,8 +38,8 @@ const NavBar = () => {
           <NavLink
             to='/contact'
             className={({ isActive }) =>
-              `font-medium transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
-                isActive ? 'text-gray-800' : 'text-gray-400'
+              `font-normal transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
+                isActive ? 'text-gray-800' : 'text-gray-500'
               }`
             }
           >
@@ -50,8 +50,8 @@ const NavBar = () => {
           <NavLink
             to='/about'
             className={({ isActive }) =>
-              `font-medium transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
-                isActive ? 'text-gray-800' : 'text-gray-400'
+              `font-normal transition-colors duration-200 hover:text-gray-800 hover:cursor-pointer ${
+                isActive ? 'text-gray-800' : 'text-gray-500'
               }`
             }
           >
@@ -59,7 +59,7 @@ const NavBar = () => {
           </NavLink>
         </li>
         <div className='flex gap-3 justify-end py-3 font-semibold'>
-          <li className='text-gray-400 hover:text-gray-800 transition-colors duration-200'>
+          <li className='text-gray-500 hover:text-gray-800 transition-colors duration-200'>
             <a
               href='https://www.instagram.com/cecilia.iwata/'
               target='_blank'
@@ -68,7 +68,7 @@ const NavBar = () => {
               <FaInstagram />
             </a>
           </li>
-          <li className='text-gray-400 hover:text-gray-800 transition-colors duration-200'>
+          {/* <li className='text-gray-500 hover:text-gray-800 transition-colors duration-200'>
             <a
               href='https://www.facebook.com/cecilia.iwata'
               target='_blank'
@@ -76,7 +76,7 @@ const NavBar = () => {
             >
               <FaFacebook />
             </a>
-          </li>
+          </li> */}
         </div>
       </ul>
     </nav>
