@@ -26,9 +26,9 @@ const Landing = () => {
   }
 
   return (
-    <div className='animate-fade-in mx-auto'>
+    <div className='animate-fade-in mx-auto pt-10'>
       <img src={current.src} alt={current.title} className='shadow-xl' />
-      <div className='flex justify-center items-center gap-6 py-8'>
+      <div className='flex justify-center items-center gap-6 py-6'>
         <button className='hover:cursor-pointer' onClick={prevArtwork}>
           <span className='inline-block transition-transform duration-500 hover:-translate-x-0.5'>
             <FaArrowLeftLong className='text-gray-500 hover:text-gray-800 transition-colors duration-300' />

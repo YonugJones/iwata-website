@@ -13,8 +13,8 @@ const Painting = () => {
   const paintingWorks = artworks.filter((p) => p.category === 'painting')
 
   return (
-    <div className='animate-fade-in m-auto px-4 pb-10'>
-      <div className='relative flex items-center justify-center text-gray-500 mb-6'>
+    <div className='animate-fade-in m-auto px-4 pb-10 w-full max-w-5xl'>
+      <div className='relative flex items-center justify-center text-gray-500 mb-6 min-h-9'>
         <button
           className='absolute left-0 hover:text-gray-800 hover:cursor-pointer transition-colors duration-200'
           onClick={() => navigate('/')}

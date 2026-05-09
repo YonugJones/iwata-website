@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom'
-import { FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 const NavBar = () => {
   return (
@@ -68,15 +68,6 @@ const NavBar = () => {
               <FaInstagram />
             </a>
           </li>
-          {/* <li className='text-gray-500 hover:text-gray-800 transition-colors duration-200'>
-            <a
-              href='https://www.facebook.com/cecilia.iwata'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <FaFacebook />
-            </a>
-          </li> */}
         </div>
       </ul>
     </nav>
