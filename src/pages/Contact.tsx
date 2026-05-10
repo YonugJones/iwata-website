@@ -10,13 +10,13 @@ const Contact = () => {
             type='text'
             placeholder='Name'
             required
-            className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full'
+            className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full font-josefin italic'
           />
           <input
             type='email'
             placeholder='Email'
             required
-            className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full'
+            className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full font-josefin italic'
           />
         </div>
         <textarea
@@ -25,7 +25,7 @@ const Contact = () => {
           id='message'
           placeholder='Hey!'
           required
-          className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full resize-none'
+          className='border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 gray-focus rounded-md p-2 w-full resize-none font-josefin italic'
         />
         <button
           type='submit'

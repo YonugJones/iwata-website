@@ -24,7 +24,7 @@ const ArtworkDetails = () => {
           <h1 className='dark-gray font-ultra italic'>{artwork.title}</h1>
           <p className='pb-2'>{artwork.year}</p>
           <p className='dark-gray pb-2'>{artwork.materials}</p>
-          <p>{artwork.description}</p>
+          <p className='font-josefin italic'>{artwork.description}</p>
         </div>
       </div>
     </div>
