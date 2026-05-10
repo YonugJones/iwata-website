@@ -31,12 +31,12 @@ const Landing = () => {
       <div className='flex justify-center items-center gap-6 py-6'>
         <button className='hover:cursor-pointer' onClick={prevArtwork}>
           <span className='inline-block transition-transform duration-500 hover:-translate-x-0.5'>
-            <FaArrowLeftLong className='text-gray-500 hover:text-gray-800 transition-colors duration-300' />
+            <FaArrowLeftLong className='gray gray-hover transition-colors duration-300' />
           </span>
         </button>
         <button className='hover:cursor-pointer' onClick={nextArtwork}>
           <span className='inline-block transition-transform duration-500 hover:translate-x-0.5'>
-            <FaArrowRightLong className='text-gray-500 hover:text-gray-800 transition-colors duration-300' />
+            <FaArrowRightLong className='gray gray-hover transition-colors duration-300' />
           </span>
         </button>
       </div>

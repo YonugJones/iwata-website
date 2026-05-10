@@ -14,8 +14,8 @@ const NavBar = () => {
           <NavLink
             to='/sculpture'
             className={({ isActive }) =>
-              `font-normal transition-colors duration-200 gray-hover text-sm ${
-                isActive ? 'dark-gray' : 'gray'
+              `font-normal transition-colors duration-200 gray-hover nav-underline text-sm ${
+                isActive ? 'dark-gray nav-underline-active' : 'gray'
               }`
             }
           >
@@ -26,8 +26,8 @@ const NavBar = () => {
           <NavLink
             to='/painting'
             className={({ isActive }) =>
-              `font-normal transition-colors duration-200 gray-hover text-sm ${
-                isActive ? 'dark-gray' : 'gray'
+              `font-normal transition-colors duration-200 gray-hover nav-underline text-sm ${
+                isActive ? 'dark-gray nav-underline-active' : 'gray'
               }`
             }
           >
@@ -38,8 +38,8 @@ const NavBar = () => {
           <NavLink
             to='/contact'
             className={({ isActive }) =>
-              `font-normal transition-colors duration-200 gray-hover text-sm ${
-                isActive ? 'dark-gray' : 'gray'
+              `font-normal transition-colors duration-200 gray-hover nav-underline text-sm ${
+                isActive ? 'dark-gray nav-underline-active' : 'gray'
               }`
             }
           >
@@ -50,8 +50,8 @@ const NavBar = () => {
           <NavLink
             to='/about'
             className={({ isActive }) =>
-              `font-normal transition-colors duration-200 gray-hover text-sm ${
-                isActive ? 'dark-gray' : 'gray'
+              `font-normal transition-colors duration-200 gray-hover nav-underline text-sm ${
+                isActive ? 'dark-gray nav-underline-active' : 'gray'
               }`
             }
           >

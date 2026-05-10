@@ -2,11 +2,11 @@ import aboutImg from '../assets/cecilia-about-photo.jpg'
 
 const About = () => {
   return (
-    <div className='gray animate-fade-in m-auto'>
-      <h1 className='text-xl tracking-wide text-start font-normal font-ultra pb-4 italic'>
-        About
-      </h1>
-      <div className='grid grid-cols-2 gap-10 text-sm'>
+    <div className='animate-fade-in ml-[15%] px-4 pt-9 w-full max-w-lg'>
+      <div className='gray mb-6 min-h-9'>
+        <h1 className='tracking-wide font-ultra italic text-2xl'>About</h1>
+      </div>
+      <div className='grid grid-cols-2 gap-10 text-sm font-outfit gray'>
         <div className='max-w-md'>
           <p>
             My practice focuses on the exchange of social, economic and cultural
@@ -45,7 +45,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img src={aboutImg} alt='Cecilia Iwata' className='w-80' />
+          <img src={aboutImg} alt='Cecilia Iwata' className='w-120 shadow-sm' />
         </div>
       </div>
     </div>

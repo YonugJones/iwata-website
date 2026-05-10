@@ -9,23 +9,21 @@ const ArtworkDetails = () => {
   if (!artwork) return <div>Artwork not found</div>
 
   return (
-    <div className='animate-fade-in m-auto px-4 pb-10 w-full max-w-5xl h-full'>
-      <div className='relative flex items-center justify-center mb-6 min-h-9'>
+    <div className='animate-fade-in m-auto px-4 pb-10 w-full max-w-5xl'>
+      <div className='relative flex items-center justify-center mb-6 min-h-9 pt-9'>
         <button
           className='absolute left-0 gray gray-hover hover:cursor-pointer transition-colors duration-200'
           onClick={() => navigate(`/${artwork.category}`)}
         >
-          BACK
+          back
         </button>
       </div>
       <div className='flex gap-6'>
         <img src={artwork.src} alt={artwork.title} className='max-w-3xl' />
-        <div className='flex justify-end flex-col text-gray-500 italic text-sm font-light'>
-          <h1 className='text-gray-800 text-base font-normal'>
-            {artwork.title}
-          </h1>
-          <p>{artwork.year}</p>
-          <p>{artwork.materials}</p>
+        <div className='flex justify-end flex-col gray italic text-sm font-light'>
+          <h1 className='dark-gray font-ultra italic'>{artwork.title}</h1>
+          <p className='pb-2'>{artwork.year}</p>
+          <p className='dark-gray pb-2'>{artwork.materials}</p>
           <p>{artwork.description}</p>
         </div>
       </div>
